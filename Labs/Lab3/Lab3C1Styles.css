@@ -2,6 +2,11 @@ body{
   background-color: #B72DDF;
 }
 
+p {
+  color:white;
+  font-size: 15px;
+}
+
 .greenText {
   color: green;
   font-style: italic;
