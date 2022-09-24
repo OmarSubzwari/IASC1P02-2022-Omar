@@ -1,1 +1,13 @@
-body{background-color:black}
+body{
+  background-color: #B72DDF;
+}
+
+.greenText {
+  color: green;
+  font-style: italic;
+}
+
+#firstHeader{
+  color:red;
+  font-weight: bold;
+}
