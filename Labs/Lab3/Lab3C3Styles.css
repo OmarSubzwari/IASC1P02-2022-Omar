@@ -3,6 +3,6 @@
  font-family: arial;
 }
 
-#absoluteImage{
-  border: 1px #solid black
+.firstImage{
+    border: 1px #solid black
 }
