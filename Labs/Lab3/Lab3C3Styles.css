@@ -1,6 +1,7 @@
 .firstParagraph{
+  text-transform: uppercase;
  font-family: arial;
- text-transform: uppercase;
+
 }
 
 #absoluteImage{
