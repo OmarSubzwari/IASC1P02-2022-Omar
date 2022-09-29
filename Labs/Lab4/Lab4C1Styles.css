@@ -2,10 +2,10 @@
 body{
   background-color: blue;
   border: 6px black solid;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 /*P class para1 being targetted here*/
 p.Para1{
@@ -15,11 +15,12 @@ p.Para1{
   margin-left: 10px;
   margin-right:10px;
   padding: 5px;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
 }
 /*This is for changing the image*/
 .brockMascot{
   border-style: dotted;
   border-color: orange;
-  padding: 20px
-
+  padding: 20px;
 }
