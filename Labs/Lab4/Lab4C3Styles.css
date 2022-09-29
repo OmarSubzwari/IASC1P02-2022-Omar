@@ -23,5 +23,5 @@
 }
 
 div ~ p{
-  <body background-color: green>
+background-color: green;
 }
