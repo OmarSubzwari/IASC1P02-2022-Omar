@@ -1,0 +1,41 @@
+.p1{
+  border-style: dashed;
+  border-color: purple;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 300px;
+  padding-bottom: 30px;
+
+}
+
+.greenText {
+  text-align: center;
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+.orangeText{
+  font-size: 40px;
+  color: orange;
+}
+
+
+.purpleText{
+  text-align: right;
+  color: purple;
+  font-size: 10px;
+}
+
+.redSuper{
+  color: red;
+  vertical-align: super;
+}
+
+.yellowCaps{
+  color: yellow;
+}

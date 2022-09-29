@@ -1,0 +1,27 @@
+.wrapper{
+  border-style: dashed;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.p1{
+  color: red;
+}
+
+.p2{
+  color: #355E3B;
+}
+
+.p3{
+  color: purple;
+}
+
+div ~ p{
+  background-color: green;
+}
