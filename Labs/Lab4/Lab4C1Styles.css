@@ -1,8 +1,9 @@
-/*P class para1 being targetted here*/
+/*This is changing the background color for the page*/
 body{
   background-color:blue;
 }
-
+/*P class para1 being targetted here*/
 p.Para1{
   color: red;
+  text-allign: right;
 }
