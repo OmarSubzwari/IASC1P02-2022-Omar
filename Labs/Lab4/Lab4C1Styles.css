@@ -5,5 +5,8 @@ body{
 /*P class para1 being targetted here*/
 p.Para1{
   color: red;
-  text-allign: right;
+}
+/*This is for changing the image*/
+img{
+  margin: 30px;
 }
