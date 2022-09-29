@@ -23,5 +23,5 @@
 }
 
 div ~ p{
-  color: #355E3B;
+  background-color: green;
 }
