@@ -7,6 +7,8 @@
   padding-left: 10px;
   padding-top: 20px;
   padding-bottom: 10px;
+  background-repeat: no-repeat;
+  background size: 1365px 254px;
   background-color: green;
 
 }
@@ -21,4 +23,5 @@
 
 .p3{
   color: purple;
+  background-color: green;
 }
