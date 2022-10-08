@@ -1,0 +1,48 @@
+body{
+  background-color: green;
+}
+
+
+#wrapper{
+	margin:0 auto;
+  width: 1000px;
+}
+
+#header{
+	text-align: center;
+  padding-top: 5px;
+  background-color: red;
+  font-size: 25px;
+  height: 100px;
+
+}
+
+#nav1left{
+	background-color:green;
+  padding-bottom: 40px;
+  line-height: 3.5;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#nav1right{
+font-size: 25px;
+}
+
+#content{
+  background-color: blue;
+  height: 850px;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+#footer{
+	text-align:left;
+	height:100px;
+	clear:both;
+  background-color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+
+}
