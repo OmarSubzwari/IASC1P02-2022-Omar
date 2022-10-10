@@ -6,17 +6,17 @@
 #header{
   width:2600px;
 	height:100px;
-	text-align:center;
   background-color: red;
   color: white;
   padding-top: 5px;
   font-size: 25px;
+	text-align: center;
 
 }
 
 #leftbody{
 	width:2600px;
-	height: 850px;
+	height: 600px;
 	background-color:green;
   color:white;
   padding-bottom: 40px;
@@ -30,7 +30,7 @@
 	clear:both;
   color: white;
   width:2600px;
-	height: 150px;
+	height: 170px;
 	background-color:blue;
   line-height: 3.5;
 
