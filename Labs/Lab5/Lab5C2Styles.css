@@ -18,7 +18,7 @@ body{
 }
 
 #nav1left{
-	background-color:green;
+	background-color:pink;
   padding-bottom: 40px;
   line-height: 3.5;
   font-size: 25px;
@@ -27,11 +27,16 @@ body{
 }
 #nav1right{
 font-size: 25px;
+float: right;
+text-align: left;
+background-color: orange;
+width: 750px;
+height: 127px;
 }
 
 #content{
   background-color: blue;
-  height: 850px;
+  height: 600px;
   font-weight: bold;
   font-size: 25px;
 
