@@ -17,3 +17,19 @@
 #paragaph2{
   text-transform: capitalize;
 }
+
+/** this uses nested selectors**/
+.paragraph3{
+  color: blue;
+  text-transform: uppercase;
+}
+
+/** this uses grouping selectors to change header1 and 2 as well as paragrahps into blue text colour**/
+h1,h2,p{
+color: blue;
+}
+
+/** this uses nested selectors to change the text color of only h3 that is within class "firstItemInList"**/
+.firstItemInList h3{
+  color: magenta;
+}
