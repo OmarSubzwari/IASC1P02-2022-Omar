@@ -1,0 +1,19 @@
+/** this changes the color of a piece of text**/
+#header1{
+  color: green;
+}
+
+/** this changes the size of a piece of text**/
+#header2{
+  font-size: 15px;
+}
+
+/** this changes the font of a piece of text**/
+#paragaph1{
+  font-family: sans-serif;
+}
+
+/** this changes that transforms of a piece of text by capitalizing**/
+#paragaph2{
+  text-transform: capitalize;
+}
