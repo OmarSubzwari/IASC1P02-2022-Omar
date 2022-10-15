@@ -33,3 +33,11 @@ color: blue;
 .firstItemInList h3{
   color: magenta;
 }
+/** this demonstrates the use of the box model, by adding margin, padding and a border around the first image on my page"**/
+.imgOfGamer{
+  margin: 5px;
+  border-style: solid;
+  padding: 20px;
+  content: attr();
+  background-color: green;
+}
