@@ -1,6 +1,10 @@
-/** this changes the color of a piece of text**/
+/** this changes the color of a piece of text and the position of the header being absolute**/
 #header1{
   color: green;
+  position: absolute;
+  position: relative;
+  position: fixed;
+  z-index: 5;
 }
 
 /** this changes the size of a piece of text**/
@@ -40,4 +44,9 @@ color: blue;
   padding: 20px;
   content: attr();
   background-color: green;
+}
+
+/** this demonstrates the use of positioning my image as fixed "**/
+.imgOfOmar{
+  position: fixed;
 }
