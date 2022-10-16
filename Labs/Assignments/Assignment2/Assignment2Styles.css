@@ -46,7 +46,7 @@ color: blue;
   background-color: green;
 }
 
-/** this demonstrates the use of positioning my image as fixed "**/
+/** this demonstrates the use of positioning my image as relative "**/
 .imgOfOmar{
-  position: fixed;
+  position: relative;
 }
