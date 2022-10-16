@@ -42,7 +42,6 @@ color: blue;
   margin: 5px;
   border-style: solid;
   padding: 20px;
-  content: attr();
   background-color: green;
 }
 
