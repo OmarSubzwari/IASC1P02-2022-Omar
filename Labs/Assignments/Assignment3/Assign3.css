@@ -18,53 +18,59 @@ background-color:#1434A4;
 
 }
 .navigation{
-color: black;
+color: white;
 width: 795px;
 height: 40px;
 background-color: #1DA1F2;
 text-align: center;
-padding-left: 1100px;
+padding-left: 1095px;
 
 }
 
-.leftBody {
+.rightBody {
 width: 450px;
-margin: 10px;
-height: 690px;
-color: black;
+margin: 5px;
+height: 700px;
+color: white;
 background-color: #1DA1F2;
 float: right;
 }
 
-.rightBody {
-    width: 800px;
+.leftBody {
+    width: 1425px;
     height: 700px;
-    background-color: purple;
+    margin: 5px;
+    background-color:#1434A4;
     float: left;
+    color: white;
 }
 
-.rightText{
-    width: 780px;
+.leftText{
+    width: 1405px;
     height: 330px;
     margin: 10px;
-    background-color: green;
+    background-color: #1DA1F2;
+    color: white;
 }
 
 .midImage {
-width: 350px;
+width: 750px;
 height: 320px;
 margin: 10px;
 margin-right: 40px;
-background-color: pink;
+background-color: #1DA1F2;
+padding-right: 30px;
 float: left;
+color: white;
 }
 
 .rightImage {
-width: 350px;
+width: 570px;
 height: 320px;
 margin: 10px;
-margin-left: 40px;
-background-color: orange;
+color: white;
+
+background-color: #1DA1F2;
 float: right;
 }
 
@@ -73,5 +79,5 @@ float: right;
     width: 1895px;
     height: 40px;
     background-color: #1434A4;
-    color: black;
+    color: white;
     text-align: center;
