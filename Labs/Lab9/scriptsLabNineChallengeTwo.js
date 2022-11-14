@@ -6,7 +6,7 @@ document.write("Your birth year is " + (2022 - myPrompt));
 }
 
 var myPrompt = prompt("What is your age?");
-console.log(myPrompt);
+//console.log(myPrompt);
 
 //citation for null that is used in javascript code.
 //https://stackoverflow.com/questions/71075523/asking-the-user-to-re-enter-year-of-birth-until-birth-year-current-year // null idea was used from user "Kato" on the website stack overflow/
