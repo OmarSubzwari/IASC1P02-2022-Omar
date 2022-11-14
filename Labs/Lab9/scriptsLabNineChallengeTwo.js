@@ -1,6 +1,7 @@
 function getAge(){
 if (myPrompt != null) {
-document.getElementById("theYear").innerHTML = "Your birth year is " + (2022 - myPrompt);
+//document.getElementById("theYear").innerHTML = "Your birth year is " + (2022 - myPrompt);
+document.write("Your birth year is " + (2022 - myPrompt));
 }
 }
 
