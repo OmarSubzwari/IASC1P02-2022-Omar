@@ -1,0 +1,8 @@
+#wrapper{
+  border-style: solid;
+  margin-right: 1420px;
+}
+#label{
+white-space: nowrap;
+overflow: hidden;
+}
