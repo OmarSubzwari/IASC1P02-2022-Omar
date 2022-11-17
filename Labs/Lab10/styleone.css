@@ -1,8 +1,29 @@
 #wrapper{
   border-style: solid;
-  margin-right: 1420px;
+  margin-right: 1400px;
 }
 #label{
 white-space: nowrap;
 overflow: hidden;
+}
+
+#addition {
+
+}
+
+
+#subtraction{
+
+}
+
+
+#division{
+
+
+}
+
+
+#multiplication{
+
+
 }
