@@ -14,8 +14,9 @@
 }
 
 .brandlogo{
-  width:85px;
-  height:85px;
+  width:125px;
+  height:125px;
+  position:absolute; left: -192px; top: -20px;
 
 }
 .nav{
