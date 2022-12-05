@@ -13,7 +13,11 @@
 
 }
 
+.brandlogo{
+  width:85px;
+  height:85px;
 
+}
 .nav{
   width: 80%;
   position: sticky;
