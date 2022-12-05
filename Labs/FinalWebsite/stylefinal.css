@@ -12,3 +12,94 @@
   background: linear-gradient(to right,#9c27b0, #8ecdff);
 
 }
+
+.logo{
+  width:130px;
+
+}
+.nav{
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+/** for ul and li within nav links*/
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+/** for anchor within UL and li*/
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.info{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top:50%;
+  left: -10%;
+  transform: translateY(-50%);
+
+}
+
+#circle{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+
+.featureone{
+  top: 450px;
+  right: 50px;
+    position: absolute;
+}
+.cameraicon{
+  width: 70px;
+  height: 70px;
+}
+.featuretwo{
+  top: 150px;
+  left: 400px;
+    position: absolute;
+
+}
+.processoricon{
+  width: 70px;
+  height: 70px;
+}
+.featurethree{
+  bottom: 450px;
+  left: 70px;
+    position: absolute;
+
+}
+.displayicon{
+  width: 70px;
+  height: 70px;
+}
+
+.featurefour{
+  bottom: 150px;
+  right: 350px;
+    position: absolute;
+
+}
+.batteryicon{
+  width: 70px;
+  height: 70px;
+}
