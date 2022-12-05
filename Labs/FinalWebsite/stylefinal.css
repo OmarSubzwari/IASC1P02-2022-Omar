@@ -13,8 +13,9 @@
 
 }
 
-.logo{
-  width:130px;
+.brandlogo{
+  width:85px;
+  height:85px;
 
 }
 .nav{
@@ -47,7 +48,7 @@
   height: 1000px;
   position: absolute;
   top:50%;
-  left: -10%;
+  left: 0%;
   transform: translateY(-50%);
 
 }
@@ -59,47 +60,103 @@
   top: 0;
   left: 0;
   border-radius: 50%;
-  background: #ccc;
+  transform: rotate(0deg);
 }
 
-
+/**control camera logo and text*/
 .featureone{
   top: 450px;
   right: 50px;
     position: absolute;
+    display: flex;
+    color: white;
+    margin-left: 30px;
 }
 .cameraicon{
   width: 70px;
   height: 70px;
 }
+/**control processor logo and text*/
 .featuretwo{
-  top: 150px;
-  left: 400px;
+  top: 100px;
+  left: 370px;
     position: absolute;
+    display: flex;
+    color: white;
+    margin-left: 30px;
 
 }
 .processoricon{
   width: 70px;
   height: 70px;
 }
+/**control display logo and text*/
 .featurethree{
-  bottom: 450px;
-  left: 70px;
+  bottom: 480px;
+  left: 50px;
     position: absolute;
+    display: flex;
+    color: white;
+    margin-left: 30px;
 
 }
 .displayicon{
   width: 70px;
   height: 70px;
 }
-
+/**control Battery logo and text*/
 .featurefour{
-  bottom: 150px;
+  bottom: 50px;
   right: 350px;
     position: absolute;
+    display: flex;
+    color: white;
+    margin-left: 30px;
 
 }
 .batteryicon{
   width: 70px;
   height: 70px;
+}
+
+/**adding some margin between header and text(p)*/
+p{
+  margin-top: 8px;
+}
+
+.phoneimage{
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left:40%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.controls{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h3{
+  margin: 15px 0;
+  color: white;
+  text-align: center;
+}
+
+#arrowUp{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+
+}
+
+#arrowDown{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transform: rotate(180deg);
+
 }
