@@ -12,11 +12,11 @@
 <body>
 
 <div class="main">
-  <nav class="nav">
+  <nav class="navigation">
     <div class="logo">
       <img class="brandlogo" src="images/omarPhone.png" alt="Phone logo"/>
       </div>
-    <div class="nav-links">
+    <div class="navigation-links">
       <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./phone.html">Phone</a></li>
@@ -27,6 +27,7 @@
           </nav>
 
     <div class="info">
+			<div class ="overlay"> </div>
           <img class="phoneimage" src="images/iphone.png" alt="iPhone 14 Pro Max"/>
       <div id="circle">
         <div class="featureone">
@@ -65,9 +66,34 @@
                 <h3>Features</h3>
                 <img id="arrowDown" src="images/arrow.png" alt="arrow pointing up"/>
               </div>
+							</div>
 
+	<!--The scripts is added here because you cannot use numbers in a string. I tried to make this work in the .JS file but was unsuccessful/// Code inspiration from https://www.javatpoint.com/how-to-rotate-image-in-html-->
+	 <script>
 
+	 var circle = document.getElementById("circle")
+	 var arrowUp = document.getElementById("arrowUp");
+	 var arrowDown = document.getElementById("arrowDown");
+
+	 var rotateValue = circle.style.transform;
+	 var rotateSum;
+
+	 arrowUp.onclick = function()
+ {
+	 rotateSum = rotateValue + "rotate(-90deg)";
+	 circle.style.transform = rotateSum;
+	 rotateValue = rotateSum;
+ }
+
+ arrowDown.onclick = function()
+{
+ rotateSum = rotateValue + "rotate(90deg)";
+ circle.style.transform = rotateSum;
+ rotateValue = rotateSum;
+}
+	 </script>
   </body>
+
 
 
   </html>

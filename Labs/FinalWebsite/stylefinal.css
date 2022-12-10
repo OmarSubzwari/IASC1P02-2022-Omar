@@ -19,7 +19,7 @@
   position:absolute; left: -192px; top: -20px;
 
 }
-.nav{
+.navigation{
   width: 80%;
   position: sticky;
   margin: 20px auto;
@@ -28,18 +28,18 @@
   align-items: center;
 }
 
-.nav-links{
+.navigation-links{
   flex: 1;
   text-align: right;
 }
 /** for ul and li within nav links*/
-.nav-links ul li{
+.navigation-links ul li{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
 }
 /** for anchor within UL and li*/
-.nav-links ul li a{
+.navigation-links ul li a{
   color: #fff;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@
   height: 1000px;
   position: absolute;
   top:50%;
-  left: 0%;
+  left: -10%;
   transform: translateY(-50%);
 
 }
@@ -62,6 +62,7 @@
   left: 0;
   border-radius: 50%;
   transform: rotate(0deg);
+  transition: 1s;
 }
 
 /**control camera logo and text*/
@@ -85,6 +86,7 @@
     display: flex;
     color: white;
     margin-left: 30px;
+    transform: rotate(-90deg); /**to allow the text to display in correct order so when button up and down is clicked it is always shown in the proper direction*/
 
 }
 .processoricon{
@@ -94,11 +96,12 @@
 /**control display logo and text*/
 .featurethree{
   bottom: 480px;
-  left: 50px;
+  left: 10px;
     position: absolute;
     display: flex;
     color: white;
     margin-left: 30px;
+    transform: rotate(-180deg); /**to allow the text to display in correct order so when button up and down is clicked it is always shown in the proper direction*/
 
 }
 .displayicon{
@@ -107,12 +110,13 @@
 }
 /**control Battery logo and text*/
 .featurefour{
-  bottom: 50px;
+  bottom: 130px;
   right: 350px;
     position: absolute;
     display: flex;
     color: white;
-    margin-left: 30px;
+    margin-left: 10px;
+    transform: rotate(-270deg); /**to allow the text to display in correct order so when button up and down is clicked it is always shown in the proper direction*/
 
 }
 .batteryicon{
@@ -160,4 +164,16 @@ h3{
   cursor: pointer;
   transform: rotate(180deg);
 
+}
+
+.overlay{
+  width: 0;
+  height: 0;
+  border-top: 500px solid #fff;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #fff;
+  border-left: 500px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
