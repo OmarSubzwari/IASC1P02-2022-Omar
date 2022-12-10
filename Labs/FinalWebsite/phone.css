@@ -43,3 +43,22 @@
   color: #fff;
   text-decoration: none;
 }
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.leftBody, .rightBody, .midBody {
+width: 500px;
+float: left;
+margin: 10px;
+margin-top: 80px;
+text-align: left;
+line-height: 2;
+}
+
+#clock{
+position: absolute;
+top: 90%;
+left: 50%;
+}
