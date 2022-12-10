@@ -43,3 +43,21 @@
   color: #fff;
   text-decoration: none;
 }
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+.leftBody, .rightBody, .midImage {
+width: 500px;
+float: left;
+margin: 10px;
+margin-top: 80px;
+text-align: left;
+line-height: 2;
+}
+
+.picture{
+padding-right: auto;
+}
