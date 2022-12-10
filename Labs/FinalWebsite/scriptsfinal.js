@@ -8,9 +8,10 @@
 
 
 function arrowUpRotate(){
-  rotateSum = rotateValue + "rotate(-90deg)";
-  circle.style.transform = rotateSum;
-  rotateValue = rotateSum;
+  rotateValue = currentValue + 90;
+  circle.style.transform = "rotate(" + rotateValue + "deg)";
+  currentValue = rotateValue;
+
 }
 
 var circle = document.getElementById("circle")
