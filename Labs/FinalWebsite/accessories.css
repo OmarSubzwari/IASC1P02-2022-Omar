@@ -131,3 +131,13 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #717171;
 }
+
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: grey;
+color: white;
+text-align: center;
+}
